@@ -12,6 +12,6 @@ module.exports = (event, callback) => {
     if (error) {
       callback(error);
     }
-    callback(error, data.Items.map(funtion(item){return {id: item.id, message: item.message}));
+    callback(error, data.Items.map(function(item){return {id: item.id, message: item.message}));
   });
 };
