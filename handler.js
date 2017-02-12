@@ -1,4 +1,5 @@
 'use strict';
+require('dotenv').config()
 
 const daresCreate = require('./dares-create.js');
 const daresReadAll = require('./dares-read-all.js');

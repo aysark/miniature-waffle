@@ -9,6 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.6.7",
+    "dotenv": "^4.0.0",
     "stripe": "^4.15.0",
     "uuid": "^2.0.3"
   }

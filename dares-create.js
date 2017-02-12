@@ -3,7 +3,7 @@
 const AWS = require('aws-sdk');
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 const uuid = require('uuid');
-const stripe = require('stripe')('sk_test_BZr7uQghwHHcd0byARYMftwN');
+const stripe = require('stripe')(process.env.STRIPE_LIVE);
 
 module.exports = (event, callback) => {
   const data = JSON.parse(event.body);
